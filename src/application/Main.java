@@ -36,7 +36,7 @@ public class Main {
 	        String formattedDate = sdf.format(date);
 
 	        String filePath1 = "errors_and_infos/application_info.txt";
-	        String text = String.format("[%s] [INFO] application started.",
+	        String text = String.format("[%s] [INFO] Application started.",
 	        		formattedDate);
 
 	        try (FileWriter fileWriter = new FileWriter(filePath1, true)) {
